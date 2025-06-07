@@ -72,7 +72,6 @@
       return json.items || [];
     }
     async function fetchAllFeeds() {
-      
     const feedSourceUrl = "feeds.json";
     let feeds = [];
     try {
@@ -81,7 +80,6 @@
     } catch (err) {
       console.error("Failed to load feeds.json:", err);
     }
-    
       let items = [];
       try {
         const results = await Promise.all(feeds.map(fetchRSSFeed));
