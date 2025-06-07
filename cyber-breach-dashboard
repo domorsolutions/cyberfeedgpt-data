@@ -18,7 +18,7 @@
   <div class="max-w-7xl mx-auto">
     <h1 class="text-3xl font-bold mb-4 text-center">Cybersecurity Breach Dashboard</h1>
 
-    <!-- Daily Summary -->
+    <!-- Today Summary -->
     <div id="todaySummary" class="mb-4 p-4 border-l-4 border-blue-500 bg-blue-100 dark:bg-blue-900 rounded hidden"></div>
     <div class="flex justify-between items-center mb-4">
       <button onclick="copySummary()" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">📋 Copy Summary</button>
